@@ -1,0 +1,24 @@
+body {
+  background-image: url("tablecloth.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.galette-plate {
+  border: 1px red solid;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background-color: #3498db;
+  margin-top: 20px;
+}
+
+.cheese {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  background-color: #f1c40f;
+  cursor: move;
+}
